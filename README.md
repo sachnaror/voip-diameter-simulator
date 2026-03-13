@@ -104,7 +104,6 @@ A customer places an order with a waiter, the manager verifies the reservation i
 
 
 2. Combined Mapping Table (Restaurant vs Telecom System)
-```
 ## 🍽️ Restaurant vs Telecom System Mapping
 
 | Restaurant Role | Telecom Component | Purpose |
@@ -118,7 +117,7 @@ A customer places an order with a waiter, the manager verifies the reservation i
 | Food delivery to table | RTP (Real-time Transport Protocol) | Transfers voice packets |
 | Order ticket / order logs | SIP messages & call logs | Records communication events |
 
-```
+
 
 
 3. Step-by-Step Flow (Restaurant Analogy)
