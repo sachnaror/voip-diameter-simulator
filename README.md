@@ -48,10 +48,11 @@ docker run -p 8000:8000 schnarordocker/voip-diameter-simulator
 - Environment-based configuration using `.env`
 - Project layout ready for VoIP, Diameter, session, and logging modules
 ```
+
 ## Project Structure
 
 ```
-voip-diameter-simulator/        # Root project folder for the telecom simulator.
+voip-diameter-simulator/
 ├── app/                        # Main application package containing simulator logic.
 │   ├── core/                   # Shared configuration and session-management utilities.
 │   ├── diameter/               # Diameter authentication and message-processing components.
