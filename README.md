@@ -145,4 +145,6 @@ VoIP Client → P-CSCF → S-CSCF → HSS (via Diameter) → RTP → Voice Call 
 ```
 ⸻
 
-<img src="/Users/homesachin/Desktop/voip.png" alt="VoIP Diagram" width="700" height="700" align="left" />
+<p align="left">
+  <img src="images/voip.png" alt="VoIP Diagram" width="700" height="700" />
+</p>
