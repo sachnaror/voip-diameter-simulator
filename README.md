@@ -105,15 +105,18 @@ A customer places an order with a waiter, the manager verifies the reservation i
 
 2. Combined Mapping Table (Restaurant vs Telecom System)
 ```
-	1.	Restaurant Role	Telecom Component	Purpose
-	2.	Customer	VoIP Client / Phone	Initiates call
-	3.	Waiter	P-CSCF (Proxy Call Session Control Function)	Receives SIP request
-	4.	Restaurant Manager	S-CSCF (Serving Call Session Control Function)	Controls call session
-	5.	Reservation System	HSS (Home Subscriber Server)	Stores subscriber data
-	6.	Manager verification process	Diameter protocol	Authentication & authorization
-	7.	Kitchen	Call processing system	Executes call setup
-	8.	Food delivery to table	RTP (Real-time Transport Protocol)	Transfers voice packets
-	9.	Order ticket / order logs	SIP messages & call logs	Records communication events
+## 🍽️ Restaurant vs Telecom System Mapping
+
+| Restaurant Role | Telecom Component | Purpose |
+|---|---|---|
+| Customer | VoIP Client / Phone | Initiates call |
+| Waiter | P-CSCF (Proxy Call Session Control Function) | Receives SIP request |
+| Restaurant Manager | S-CSCF (Serving Call Session Control Function) | Controls call session |
+| Reservation System | HSS (Home Subscriber Server) | Stores subscriber data |
+| Manager verification process | Diameter protocol | Authentication & authorization |
+| Kitchen | Call processing system | Executes call setup |
+| Food delivery to table | RTP (Real-time Transport Protocol) | Transfers voice packets |
+| Order ticket / order logs | SIP messages & call logs | Records communication events |
 
 ```
 
