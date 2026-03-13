@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: VoIP Diameter Simulator API
+  version: 1.0.0
+
+paths:
+  /call/start:
+    post:
+      summary: Start simulated VoIP call
+      responses:
+        "200":
+          description: Call started
+
+  /diameter/auth:
+    post:
+      summary: Authenticate subscriber
+      responses:
+        "200":
+          description: Authentication successful
