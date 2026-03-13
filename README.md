@@ -6,6 +6,40 @@ A lightweight telecom simulator demonstrating VoIP call flow and Diameter-based 
 
 This application models a small telecom environment where a SIP-based VoIP client initiates a call and a Diameter service validates subscriber access and session control. The goal is not full protocol compliance yet; it is a learning-oriented simulator that makes the core call and auth flow visible through simple API responses and structured logs.
 
+## 🚀 VoIP Playground
+
+The **VoIP + Diameter simulator playground** is now officially open.
+
+You can explore the API, test call flows, and interact with the endpoints directly from the browser.
+
+### 🌐 Try it in the Browser
+
+Open the live Swagger interface and start playing with the APIs:
+
+👉 **Swagger UI**
+
+https://sachnaror.github.io/voip-diameter-simulator/
+
+Test endpoints, simulate calls, and explore the telecom flow — safely.
+
+---
+
+### 🐳 Run it Locally with Docker
+
+Prefer running things on your own machine? Pull the container and start the simulator locally.
+
+👉 **Docker Hub**
+
+https://hub.docker.com/r/schnarordocker/voip-diameter-simulator
+
+Run it with:
+
+```bash
+
+docker pull schnarordocker/voip-diameter-simulator
+docker run -p 8000:8000 schnarordocker/voip-diameter-simulator
+
+
 ## Features
 ```
 - FastAPI server for simulator endpoints
