@@ -56,19 +56,16 @@ docker run -p 8000:8000 schnarordocker/voip-diameter-simulator
 
 ```
 voip-diameter-simulator/
-├── app/                        # Main application package containing simulator logic
+├── app/
 │   ├── core/                   # Shared configuration and session-management utilities
 │   ├── diameter/               # Diameter authentication and message-processing components
 │   └── voip/                   # SIP and call-flow simulation components
-├── api/                        # FastAPI layer that exposes the simulator over HTTP
+├── api/
 │   ├── routes.py               # API endpoints for health, config, call simulation, and Diameter simulation
 │   └── server.py               # FastAPI application initialization and configuration
 ├── logs/                       # Stores generated call and Diameter log files
 ├── tests/                      # Automated tests for API and simulator behavior
-├── .env.example                # Example environment variables for local setup
-├── .gitignore                  # Excludes env files, caches, and build artifacts from git
-├── requirements.txt            # Python dependencies required to run the simulator
-└── README.md                   # Project overview, structure, and setup instructions
+
 ```
 
 ## Quick Start
