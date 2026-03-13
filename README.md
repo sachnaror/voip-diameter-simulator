@@ -50,7 +50,7 @@ docker run -p 8000:8000 schnarordocker/voip-diameter-simulator
 ```
 ## Project Structure
 
-```text
+```
 voip-diameter-simulator/        # Root project folder for the telecom simulator.
 ├── app/                        # Main application package containing simulator logic.
 │   ├── core/                   # Shared configuration and session-management utilities.
@@ -90,7 +90,7 @@ Below is a combined, clean explanation that merges both explanations: the restau
 
 This explanation helps visualize telecom VoIP architecture using everyday restaurant operations, making IMS components and protocols easier to understand.
 
-⸻
+
 
 1. Concept Overview
 
@@ -100,7 +100,7 @@ Using the restaurant analogy:
 
 A customer places an order with a waiter, the manager verifies the reservation in the restaurant system, and once approved the kitchen prepares the meal and serves it to the table.
 
-⸻
+
 
 2. Combined Mapping Table (Restaurant vs Telecom System)
 ```
@@ -115,7 +115,7 @@ Food delivery to table	RTP (Real-time Transport Protocol)	Transfers voice packet
 Order ticket / order logs	SIP messages & call logs	Records communication events
 
 ```
-⸻
+
 
 3. Step-by-Step Flow (Restaurant Analogy)
 ```
@@ -130,7 +130,7 @@ Order ticket / order logs	SIP messages & call logs	Records communication events
 	9.	Food is served to the customer → RTP begins sending voice packets.
 	10.	Restaurant records order logs → System logs SIP messages and call details.
 ```
-⸻
+
 
 4. Combined Flow Diagram
 ```
@@ -164,7 +164,7 @@ Food Delivered (RTP Voice Stream)
 Customer receives meal / Voice call active
 ```
 
-⸻
+
 
 5. Final Simple Summary
 
