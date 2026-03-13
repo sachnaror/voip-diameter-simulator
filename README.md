@@ -185,3 +185,17 @@ VoIP Client → P-CSCF → S-CSCF → HSS (via Diameter) → RTP → Voice Call 
 <p align="left">
   <img src="images/voip.png" alt="VoIP Diagram" width="700" height="700" />
 </p>
+
+
+## 📩 Contact
+
+| Name              | Details                             |
+|-------------------|-------------------------------------|
+| **👨‍💻 Developer**  | Sachin Arora                      |
+| **📧 Email**       | [sachnaror@gmail.com](mailto:sachnaror@gmail.com) |
+| **📍 Location**    | Noida, India                       |
+| **📂 GitHub**      | [github.com/sachnaror](https://github.com/sachnaror) |
+| **🌐 Website**     | [https://about.me/sachin-arora](https://about.me/sachin-arora) |
+| **📱 Phone**       | [+91 9560330483](tel:+919560330483) |
+
+
